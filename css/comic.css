@@ -1,0 +1,148 @@
+---
+---
+/*CSS for comic site*/
+
+body {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 15px;
+  color: #424142;
+  background-image: url({{ site.url }}/images/grid.png);
+  background-color: gray;
+}
+
+.panel {
+  background-color: rgba(255,250,244,1.0) ;
+  min-height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 10px;
+  border-color: #2e5c7a;
+}
+
+.panel p {
+  padding: 0px 25px 0px 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.panel h1 {
+  font-size: 30px;
+  font-weight: regular;
+  font-family: 'Arvo', serif;
+  padding: 0px 25px 0px 25px;
+}
+
+.panel h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Arvo', serif;
+  padding: 0px 25px 0px 25px;
+}
+
+.panel h3 {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Arvo', serif;
+  padding: 0px 25px 0px 25px;
+}
+
+.panel img {
+  height: 100%;
+  width: 100%;
+}
+
+.center {
+  margin: auto;
+  float: none;
+}
+
+
+
+/* HEADER STYLES */
+/*=============================*/
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 20;
+  padding-left: 20;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px; 
+  background: #2e5c7a;
+  border-radius:5px;
+}
+
+.navbar-wrapper .navbar a {
+  color: #fffaf3;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+  background: #2e5c7a;
+}
+
+.navbar-wrapper .navbar .container a {
+  color: #fffaf3;
+}
+
+
+
+
+/* ARCHIVE STYLES */
+/*=============================*/
+
+.archive-li {
+    /* float: left; */
+    display: block;
+}
+
+.archive-ul {
+  margin: 0px;
+  list-style: none;
+}
+
+
+/* COMIC PANEL STYLES 漫畫的大小*/
+/*=============================*/
+.comic-panel {
+  max-width: 700px;
+  margin-left: auto;
+}
+
+/* 漫畫底下的按鈕*/
+/*=============================*/
+.btn {
+  width: 50px;
+  margin: 0 10px;
+  padding: 10px;
+  border: none;
+  color: #2e5c7a;
+}
+
+/*滑鼠移到按鈕上*/
+.btn:hover{
+  opacity: 0.9;
+}
+
+/*按下按鈕的瞬間*/
+.btn:active{
+  color: #fffaf3;
+}
+
+/* 最下面的槓槓*/
+/*=============================*/
+
+.footer{
+  color: #fffaf3;
+  height: 30px;
+  margin-top: 30px;
+  position: relative;
+}

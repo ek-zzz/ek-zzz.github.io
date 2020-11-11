@@ -1,0 +1,37 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Blue Gum
+tab_title: Blue Gum #This text shows up on the browser tab
+description: XXX
+url: "" # the base hostname & protocol for your site
+
+
+# Comic Social Media
+twitter_username: https://twitter.com/zzzzz_ek
+tumblr_username: 
+patreon_username: 
+
+# Author Social Media
+author_twitter_username:
+author_tumblr_username:
+author_patreon_username:
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+theme: minima
+
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext

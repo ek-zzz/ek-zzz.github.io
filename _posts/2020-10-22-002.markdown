@@ -1,0 +1,6 @@
+---
+layout: comic
+date:   2020-10-22
+title: 002
+---
+![PAGE ONE]({{ site.url }}/images/posts/HBD_2.png)
